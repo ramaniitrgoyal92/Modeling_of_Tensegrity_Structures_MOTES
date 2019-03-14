@@ -1,9 +1,10 @@
 ---
-title: 'STEDY: Software for TEnsegrity DYnamics'
+title: 'TEAM: Tensegrity Engineering Analysis Master'
 
 tags:
   - tensegrity
   - Lagrangian
+  - statics
   - dynamics
   - MATLAB
 
@@ -19,6 +20,11 @@ authors:
   - name: Manoranjan Majji
     orcid: 0000-0002-8218-2631
     affiliation: 1
+    
+  - name: Robert E. Skelton
+    orcid: 
+    affiliation: 1
+    
 affiliations:
  - name: Department of Aerospace Engineering, Texas A&M University, College Station, Texas, USA
    index: 1
