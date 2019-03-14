@@ -4,53 +4,54 @@ title: 'STEDY: Software for TEnsegrity DYnamics'
 tags:
   - tensegrity
   - Lagrangian
+  - statics
   - dynamics
   - MATLAB
 
 authors:
-  - name: Vaishnav Tadiparthi
-    orcid: 0000-0001-9897-0600
+  - name: Raman Goyal
+    orcid: 0000-0002-8128-3051
     affiliation: 1
 
-  - name: Shao-Chen Hsu
-    orcid: 0000-0002-9407-0119
+  - name: Muhao Chen
+    orcid: 0000-0003-1812-6835
     affiliation: 1
 
-  - name: Raktim Bhattacharya
+  - name: Manoranjan Majji
     orcid: 0000-0002-8218-2631
     affiliation: 1
+
+ # - name: Associate Professor, Director of LASR Laboratory, Texas A&M University
+ #   index: 2
+
+ - name: Robert E. Skelton
+    orcid: 
+    affiliation: 1
+
+ # - name: TEES Eminent Professor, Member National Academy of Engineering, Texas A&M University
+ #   index: 3
+
 affiliations:
  - name: Department of Aerospace Engineering, Texas A&M University, College Station, Texas, USA
    index: 1
 
- # - name: Associate Professor, Texas A&M University
- #   index: 2
-
-date: 13 September 2018
+date: 13 March 2019
 bibliography: JOSSpaper.bib
 ---
 
 # Summary
 
-A tensegrity system is an arrangement of axially-loaded elements (no element bends, even though the overall structure bends), that we loosely characterize as a network of bars and cables. The bars take compressive axial loads and the cables handle tensile loads. Since failure due to axial stresses happens at higher loads than at bending, a tensegrity structure has a higher strength-to-weight ratio. The famous architect Buckminster Fuller, in the 60's, coined the term tensegrity, combining the words tensile and integrity. Since then, tensegrity principles have found applications in diverse domains like architecture [@ingber1998architecture], biological modeling [@scarr2014biotensegrity] as well as civil engineering design [@tenseBook]. Tensegrity structures, through use of pre-stresses in the bars and cables, can also achieve controlled stiffness in the structure, which makes it attractive in applications such as soft-robotics and prosthetics. In essence, tensegrity principles can be applied in the design of any structure where mass is premium, a high strength-to-weight ratio is critical, and structural stiffness needs to be tailored in both space and time. These include several applications from various engineering sectors such as aerospace (morphing airframes), energy (wind turbine blades, off-shore structures) as well as biomedical engineering (stents, minimally invasive surgical tools) and many more. Clearly, a framework is required that can efficiently model the dynamics of tensegrity structures directly from the topology of bars and cables.
 
-The dynamics of tensegrity systems is governed by multi-body dynamics, given by a set of ordinary differential equations. We have developed a Lagrangian formulation for deriving these differential equations directly from the given topology of members (bars and strings), and their mass and geometric properties. Three key features of classical tensegrity systems are a) actuations only occur via cables, b) bar-to-bar connections are pin joints, and c) the bars do not spin about their longitudinal axis. These properties are exploited to simplify the equations of motion. However, the Lagrangian framework presented here is general enough to allow modeling of general multi-body systems with actuated joints.
+Tensegrity systems \cite{Skelton_2009_Tensegrity_Book} dynamics is a subset of the class of Multi-body dynamics which includes cylindrical rigid bodies (bars) and elastic members (strings) arranged in a stabilizable topology. The name ‘Tensegrity’ is coined by Buckminster Fuller \cite{Fuller_1959}. The name comes by adding ‘Tensile +Integrity = Tensegrity’ for the art-form created by Ioganson (1921) and Snelson (1948) \cite{Snelson_1965}.  Tensegrity structures are created by methodically arranging tensile members (strings) and compressive members (bars) to form a stable system. Skelton defines ``Class-1" tensegrity system where no compressive members touch each other, and a ``Class-k" when k compressive members are connected at a node \cite{Skelton_2009_Tensegrity_Book}. All the members in a tensegrity structure are axially loaded, i.e., no moment is present on any individual member. Tensegrity structures can also be prestressed to have uni-directional loading for all the individual members giving the freedom to separately design tension and compression members. This freedom provides good structural efficiency (high strength to mass ratio) to tensegrity structures \cite{Skelton_2009_Tensegrity_Book}. A particular topology of tensegrity structure provides various self- equilibrium configurations for different values of prestress in the structure. The various stable prestress values provide a domain set to minimize the mass of the structure. This minimization has proved tensegrity to be an optimal mass solution for various loading conditions. Moreover, different prestress values correspond to different stiffness, allowing to change the stiffness without changing the shape. These properties of tensegrity structure have led the researchers to use tensegrity concepts in various applications from Civil engineering bridges \cite{Carpentieri_2015_Bridge} to robotic manipulators \cite{Karnan_Goyal_2017_IROS} to various space applications; landers \cite{Vytas_2013,Goyal_2019_Buckling}, deployable structures \cite{Tibert_Pellegrino_2003_Mast}, and, space habitats \cite{Goyal_2017_Habitat,Chen_2018_Habitat}.
 
-`STEDY` is a MATLAB package for conducting numerically accurate tensegrity dynamics. The equations of motion are developed in non-minimum Cartesian coordinates. Although the choice of non-minimum coordinates is fairly controversial in the robotics community on account of a reduction in the system's configuration space in the presence of joints, adopting Cartesian coordinates precludes any singularities developed in the mass matrix [@tenseBook] and facilitates derivations of elegant differential-algebraic equations governing the multi-body dynamics. However, usage of non-minimum coordinates is likely to result in the solution drifting away from the constraint space because of integration errors [@ConstraintViolation]. The software package includes an implementation of the direct correction scheme that minimizes numerically induced constraint violations and energy conservation errors. We have demonstrated superiority of the method in terms of accuracy over the commercially available dynamics simulator, Simscape Multibody [@matlab].
+Most approaches in the field of Multi-body dynamics use a minimal coordinate representation. This eliminates redundant variables as the body coordinates are used based on connection, from the first body to the last body in a particular order. One disadvantage of this approach is the use of transcendental function which can cause large computational errors. The other disadvantage is the limited configuration of the rigid body connections to a topological tree. The proposed formulation uses a non-minimal coordinate system to describe the dynamics of the system. The approach uses 6 DOF to define a rigid symmetric cylindrical bar with no rotation about the longitudinal axis. For a ``Class-k" tensegrity structure, there would be no moment or torque along the bar axis as the bars are connected by frictionless ball joints. 
+Moreover, all the strings are also connected to the node centers of the bars, resulting in no torque along the axis of the bar. The use of non-minimal system results in a second-order matrix differential equation to describe the dynamics of any tensegrity system. One disadvantage of such method is the violation of rigid body (constant bar length) constraint in the presence of computational errors. In order to satisfy the constant bar length constraint, we provide an algorithm to correct the approximated errors at each integration step. 
 
-`STEDY` was designed to be used by researchers looking to simulate tensegrity dynamics without having to derive the differential equations for any structure in particular. The inputs that are required from the user are simply the parameters that uniquely define the tensegrity structure (initial nodal configuration, connectivity), the material and geometric properties, and simulation environment properties (inertially fixed nodes, external forces, duration, ODE solver options). Currently, `STEDY` is being used by TAMU researchers to develop [space habitats] and [wind turbine blades] using tensegrity principles.
-
-The software documentation and the manuscript [@LagCMAME] comprehensively cover the functionality and the theory behind the Lagrangian formulation and the novel constraint correction method implemented in the package. We shall seek to incorporate techniques introducing control of dynamic tensegrity systems in future versions of the software.
-
+Tensegrity Engineering Analysis Master (TEAM) provides two categories for the analysis of any tensegrity structure. First, the static analysis provides the required tension in the strings and force in the bars for a self-equilibrium state or the equilibrium condition in the presence of an external force. This analysis uses \emph{Linear Programming} to find the minimum mass required under yielding constraints. The software also allows to solve for minimum mass under buckling and yielding failure criteria. Second, the dynamics analysis, uses a second-order matrix differential equation to simulate the dynamics of any complexity of tensegrity structure. The software runs a self-developed modified Runge-Kutta integration package to solve the nonlinear differential equation. A bar length correction algorithm is used to correct the dynamics response that might incur because of computational errors. This algorithm also restricts the errors in connection constraints for class-k structures. These bar-to-bar connections are formulated as linear constraints, which results in a reduced order model that is used to simulate the dynamics. An analytical solution is used to solve for the constraint forces appearing in the reduced order model.
+The mass in the strings is also included in the dynamics by discretizing the string into several point masses along the length of the string. The complete mathematical formulation resulting in the tensegrity dynamics is developed in our recent dynamics paper \cite{Goyal_Dynamics_2019}.
 # Acknowledgements
 
-This work was supported by NSF IUSE/PFE: RED: REvolutionizing Diversity Of Engineering (REDO-E)Award Number:1730693; and NASA NIAC Phase II grant, on Tensegrity Approaches to In-Space Construction of a 1g Growable Habitat.
-
+The authors would like to thank NASA NIAC Phase II grant, Prof. Edwin Peraza Hernandez (Department of Mechanical and Aerospace Engineering, UC Irvine), Dr. Maziar Izadi, Mr. James Henrickson, students from Integrating Structure and Control Design Group, and students from the course \textit{Spring 2019 AERO-489/689 Design Elective: Advanced Statics and Dynamics of Flexible Structures: Tensegrity Systems} for their help and suggestions during the development of this software.  
 # References
-<!-- 1. Shao-Chen Hsu, Vaishnav Tadiparthi, and Raktim Bhattacharya, "A Lagrangian Formulation for Constrained Multibody Dynamics in Tensegrity Systems", Manuscript submitted for publication.
 
-    Please contact the authors at addyhsu@tamu.edu, vaishnavtv@tamu.edu, or raktim@tamu.edu for a copy of the submitted paper. -->
-
-[space habitats]: https://www.nasa.gov/feature/tensegrity-approaches-to-in-space-construction-of-a-1g-growable-habitat
-
-[wind turbine blades]:https://www.nsf.gov/awardsearch/showAward?AWD_ID=1762825&HistoricalAwards=false
+    Please contact the authors at ramaniitrgoyal92@tamu.edu, muhaochen@tamu.edu, mmajji@tamu.edu or bobskelton@tamu.edu for a copy of the submitted paper. -->
