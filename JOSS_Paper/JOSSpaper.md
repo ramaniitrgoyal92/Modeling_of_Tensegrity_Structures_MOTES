@@ -8,15 +8,15 @@ tags:
   - MATLAB
 
 authors:
-  - name: Vaishnav Tadiparthi
-    orcid: 0000-0001-9897-0600
+  - name: Raman Goyal
+    orcid: 0000-0002-8128-3051
     affiliation: 1
 
-  - name: Shao-Chen Hsu
-    orcid: 0000-0002-9407-0119
+  - name: Muhao Chen
+    orcid: 0000-0003-1812-6835
     affiliation: 1
 
-  - name: Raktim Bhattacharya
+  - name: Manoranjan Majji
     orcid: 0000-0002-8218-2631
     affiliation: 1
 affiliations:
