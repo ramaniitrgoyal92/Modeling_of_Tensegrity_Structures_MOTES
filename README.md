@@ -9,13 +9,12 @@ mass of the structure to controlling the structure to meet certain performance. 
 statics and dynamics of tensegrity systems. The authors would like to make this as an open source software to help other 
 researchers who are also interested in this field. 
 
-Tensegrity Engineering Analysis Master(TEAM) folder contains the following parts:
-
 <LICENSE>
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
-
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+  
+Tensegrity Engineering Analysis Master(TEAM) folder contains the following parts:
 
 <setup.m> 
 If one wants to start using the TEAM software, 'setup.m' is to be run only the first time.
