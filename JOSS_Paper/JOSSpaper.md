@@ -6,7 +6,7 @@ tags:
   - Multibody dynamics
   - Flexible structures
   - Prestressable structures
-  - statics and dynamics
+  - Statics and Dynamics
   - MATLAB
 
 authors:
@@ -22,6 +22,9 @@ authors:
     orcid: 0000-0002-8218-2631
     affiliation: 1
     
+ # - name: Assistant Professor, Texas A&M University
+ #   index: 2
+    
   - name: Robert E. Skelton
     orcid: 
     affiliation: 1
@@ -30,8 +33,8 @@ affiliations:
  - name: Department of Aerospace Engineering, Texas A&M University, College Station, Texas, USA
    index: 1
 
- # - name: Associate Professor, Texas A&M University
- #   index: 2
+ # - name: TEES Eminent Professor, Member National Academy of Engineering, Texas A&M University
+ #   index: 3
 
 date: 13 September 2018
 bibliography: JOSSpaper.bib
