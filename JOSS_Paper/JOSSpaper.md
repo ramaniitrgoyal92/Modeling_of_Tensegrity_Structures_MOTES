@@ -36,7 +36,7 @@ affiliations:
  - name: Department of Aerospace Engineering, Texas A&M University, College Station, Texas, USA
    index: 1
 
-date: 13 September 2018
+date: 14 March 2019
 bibliography: JOSSpaper.bib
 ---
 
@@ -57,5 +57,3 @@ The authors would like to thank NASA NIAC Phase II grant, Prof. Edwin Peraza Her
 
 
 # References
-
-
