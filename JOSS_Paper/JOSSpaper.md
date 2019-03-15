@@ -22,14 +22,14 @@ authors:
     orcid: 0000-0002-8218-2631
     affiliation: 1 2
     
-  - name: Assistant Professor, Texas A&M University
+ # - name: Assistant Professor, Texas A&M University
     index: 2
     
   - name: Robert E. Skelton
     orcid: 
     affiliation: 1 3
     
-  - name: TEES Eminent Professor, Member National Academy of Engineering, Texas A&M University
+ # - name: TEES Eminent Professor, Member National Academy of Engineering, Texas A&M University
     index: 3
     
 affiliations:
