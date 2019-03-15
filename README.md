@@ -1,6 +1,6 @@
 # Tensegrity Engineering Analysis Master (TEAM)
 
-###**Welcome to Tensegrity Engineering Analysis Master(TEAM) software!**
+### **Welcome to Tensegrity Engineering Analysis Master(TEAM) software!**
 
 General Information: 
 Our research team focuses on integrating structure and control design using Tensegrity structure. The group focuses 
@@ -17,7 +17,7 @@ researchers who are also interested in this field.
  
 ---
 
-<font size=4>***Tensegrity Engineering Analysis Master(TEAM) folder contains the following parts:***</font>
+***<font size=4>Tensegrity Engineering Analysis Master(TEAM) folder contains the following parts:</font>***
 
 ---
 
