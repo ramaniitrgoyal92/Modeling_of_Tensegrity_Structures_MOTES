@@ -1,13 +1,10 @@
 # Tensegrity Engineering Analysis Master (TEAM)
 
-### **Welcome to Tensegrity Engineering Analysis Master(TEAM) software!**
+### **Welcome to **TEAM** software!**
 
-General Information: 
-Our research team focuses on integrating structure and control design using Tensegrity structure. The group focuses 
-on designing the tensegrity structures to meet the specified objectives. These objectives can vary from minimizing the 
-mass of the structure to controlling the structure to meet certain performance. This software is intended to study the 
-statics and dynamics of tensegrity systems. The authors would like to make this as an open source software to help other 
-researchers who are also interested in this field. 
+#### General Information
+ 
+Our research team focuses on integrating structure and control design using Tensegrity  structure. The group focuses on designing the tensegrity structures to meet the specified objectives. These objectives can vary from minimizing the mass of the structure to controlling the structure to meet certain performance. This software is intended to study the statics and dynamics of tensegrity systems. The authors would like to make this as an open source software to help other researchers who are also interested in this field. 
 
 #### LICENSE
 
@@ -25,14 +22,12 @@ researchers who are also interested in this field.
 If one wants to start using the TEAM software, 'setup.m' is to be run only the first time.
 Open MATLAB and run 'setup.m' file, it will:
 
-- Add all necessary functions to MATLAB path,
+- Add all necessary functions to MATLAB path, 
 - Open ''User_Guide.pdf" automatically, please follow the step-by-step instructions from the User Guide.
 
-#### JOSS_Paper
+#### JOSS Paper
 
-This folder contains the journal paper corresponding to the software, including source file documents and reference. 
-
-The journal paper will provide the background introduction, a summary of our work, applications, and references, etc. 
+This folder contains the journal paper corresponding to the software, including source file documents and reference. The journal paper will provide the background introduction, a summary of our work, applications, and references, etc. 
 
 #### Main
 
@@ -48,11 +43,11 @@ This folder contains two subfolders:
 
 #### Test Examples
 
-Here, we give the .m files which are used to test this software. Detailed analysis can be found in Chapter 7 of "User_Guide.pdf."
+Here, we give the .m files which are used to test this software. Detailed analysis can be found in Chapter 7 of "User_Guide.pdf".
 
 #### Tensegrity Examples
 
-Here, we list a few .m file examples from our research projects to show various applications of tensegrity and this software.
+Here, we list a few .m file examples from our research projects to show various  applications of tensegrity and this software.
 
 #### User Guide
 
