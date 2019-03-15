@@ -22,19 +22,19 @@ authors:
     orcid: 0000-0002-8218-2631
     affiliation: 1 2
     
-  - name: Assistant Professor, Texas A&M University
-    index: 2
-    
   - name: Robert E. Skelton
     orcid: 
     affiliation: 1 3
     
-  - name: TEES Eminent Professor, Member National Academy of Engineering, Texas A&M University
-    index: 3
-    
 affiliations:
  - name: Department of Aerospace Engineering, Texas A&M University, College Station, Texas, USA
    index: 1
+   
+ - name: Assistant Professor, Texas A&M University
+   index: 2
+   
+  - name: TEES Eminent Professor, Member National Academy of Engineering, Texas A&M University
+    index: 3
 
 date: 13 September 2018
 bibliography: JOSSpaper.bib
