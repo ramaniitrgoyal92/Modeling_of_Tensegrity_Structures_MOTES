@@ -46,10 +46,11 @@ $$ User_Guide
 This folder contains "User_Guide.pdf". The file provides the detailed description, how to use the software, various applications, 
 and how to become a developer as well.
 
-##　Videos
+
+## Videos
 Some interesting tensegrity animation examples are shown here.
 
 
-Help Desk:
+## Help Desk:
 We are open and willing to answer any question. Please state your problem clearly and use the following emails to contact: 
-Raman Goyal: ramaniitrgoyal92@tamu.edu, Muhao Chen: muhaochen@tamu.edu.
+Raman Goyal: |E-mail|ramaniitrgoyal92@tamu.edu, Muhao Chen: |E-mail|muhaochen@tamu.edu.
