@@ -20,17 +20,17 @@ authors:
 
   - name: Manoranjan Majji
     orcid: 0000-0002-8218-2631
-    affiliation: 1 2
+    affiliation: 1
     
  # - name: Assistant Professor, Texas A&M University
-    index: 2
+ #   index: 2
     
   - name: Robert E. Skelton
     orcid: 
-    affiliation: 1 3
+    affiliation: 1
     
  # - name: TEES Eminent Professor, Member National Academy of Engineering, Texas A&M University
-    index: 3
+ #   index: 3
     
 affiliations:
  - name: Department of Aerospace Engineering, Texas A&M University, College Station, Texas, USA
@@ -57,4 +57,5 @@ The authors would like to thank NASA NIAC Phase II grant, Prof. Edwin Peraza Her
 
 
 # References
+
 
