@@ -84,16 +84,16 @@ classK_test.video = 1;
 % tenseg_plot_velocity(Hist,[1,2],[1,2,3])
 
 %% Create plots with 3D objects 
-classK_test.Bradius = [0.02; 0.02; 0.02; 0.02]; % Radius of bars [# bars x 1]
-classK_test.Sradius = [0.01; 0.01]; % Radius of strings [# strings x 1]
-classK_test.Nradius = 0.035*ones(size(classK_test.N,2),1); % Radius of node spheres [# nodes x 1]
+% classK_test.Bradius = [0.02; 0.02; 0.02; 0.02]; % Radius of bars [# bars x 1]
+% classK_test.Sradius = [0.01; 0.01]; % Radius of strings [# strings x 1]
+% classK_test.Nradius = 0.035*ones(size(classK_test.N,2),1); % Radius of node spheres [# nodes x 1]
 
 %% Plotting configurations
 % number_of_configurations = 3; % Number of configurations to plot
 % tenseg_plot_configurations(Hist, classK_test, number_of_configurations)
 
 %% Create animation
-tenseg_animation(History,classK_test,[],[],[],[],10)
+% tenseg_animation(History,classK_test,[],[],[],[],10)
 
-save Example_class_k_Dbar_Constraint.mat
+% save Example_class_k_Dbar_Constraint.mat
 
