@@ -21,15 +21,13 @@ authors:
     orcid: 0000-0002-8218-2631
     affiliation: 1
 
-<!-- # - name: Assistant Professor, Director of LASR Laboratory, Texas A&M University
- #   index: 2>
-
- - name: Robert E. Skelton
+  - name: Robert E. Skelton
     orcid: 
     affiliation: 1
 
-<!-- # - name: TEES Eminent Professor, Member National Academy of Engineering, Texas A&M University
- #   index: 3>
+<!-- - name: Assistant Professor, Director of LASR Laboratory, Texas A&M University #   index: 2 -->
+
+<!-- # - name: TEES Eminent Professor, Member National Academy of Engineering, Texas A&M University #   index: 3 -->
 
 affiliations:
  - name: Department of Aerospace Engineering, Texas A&M University, College Station, Texas, USA
