@@ -24,11 +24,6 @@ authors:
   - name: Robert E. Skelton
     orcid: 
     affiliation: 1
-
-<!-- - name: Assistant Professor, Director of LASR Laboratory, Texas A&M University #   index: 2 -->
-
-<!-- # - name: TEES Eminent Professor, Member National Academy of Engineering, Texas A&M University #   index: 3 -->
-
 affiliations:
  - name: Department of Aerospace Engineering, Texas A&M University, College Station, Texas, USA
    index: 1
