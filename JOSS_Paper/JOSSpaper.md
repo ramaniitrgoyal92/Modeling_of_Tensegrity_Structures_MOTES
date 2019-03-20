@@ -2,10 +2,10 @@
 title: 'TEAM: Tensegrity Engineering Analysis Master'
 
 tags:
-  - tensegrity
+  - Tensegrity
   - Lagrangian
-  - statics
-  - dynamics
+  - Statics
+  - Dynamics
   - MATLAB
 
 authors:
@@ -53,3 +53,5 @@ The authors would like to thank NASA NIAC Phase II grant, Dr. Edwin Peraza Herna
 # References
 
 <!--Please contact the authors at ramaniitrgoyal92@tamu.edu, muhaochen@tamu.edu, mmajji@tamu.edu or bobskelton@tamu.edu for a copy of the submitted paper. -->
+<!-- # - name: Assistant Professor, Director of LASR Laboratory, Texas A&M University #   index: 2 -->
+<!-- # - name: TEES Eminent Professor, Member National Academy of Engineering, Texas A&M University #   index: 3 -->
