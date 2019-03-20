@@ -21,15 +21,15 @@ authors:
     orcid: 0000-0002-8218-2631
     affiliation: 1
 
- # - name: Associate Professor, Director of LASR Laboratory, Texas A&M University
- #   index: 2
+<!-- # - name: Assistant Professor, Director of LASR Laboratory, Texas A&M University
+ #   index: 2>
 
  - name: Robert E. Skelton
     orcid: 
     affiliation: 1
 
- # - name: TEES Eminent Professor, Member National Academy of Engineering, Texas A&M University
- #   index: 3
+<!-- # - name: TEES Eminent Professor, Member National Academy of Engineering, Texas A&M University
+ #   index: 3>
 
 affiliations:
  - name: Department of Aerospace Engineering, Texas A&M University, College Station, Texas, USA
@@ -51,13 +51,12 @@ Tensegrity Engineering Analysis Master (TEAM) provides two categories for the an
 
 The mass in the strings is also included in the dynamics by discretizing the string into several point masses along the length of the string. The complete mathematical formulation resulting in the tensegrity dynamics is developed in our recent dynamics paper [@Goyal_Dynamics_2019].
 
-
-
 The software is being used to develop various tensegrity structures like Tensegrity Robotic Arm, Tensegrity Antenna, Space Habitat and etc. in our Tensegrity Systems Lab (Integrating structure and control design) and to teach students for the course *Spring 2019 AERO-489/689 Design Elective: Advanced Statics and Dynamics of Flexible Structures: Tensegrity Systems*.
 
 # Acknowledgements
 
 The authors would like to thank NASA NIAC Phase II grant, Dr. Edwin Peraza Hernandez (UC Irvine), Dr. Maziar Izadi, Mr. James Henrickson, and students from Integrating Structure and Control Design Group for their help and suggestions during the development of this software. 
+
 # References
 
 <!--Please contact the authors at ramaniitrgoyal92@tamu.edu, muhaochen@tamu.edu, mmajji@tamu.edu or bobskelton@tamu.edu for a copy of the submitted paper. -->
