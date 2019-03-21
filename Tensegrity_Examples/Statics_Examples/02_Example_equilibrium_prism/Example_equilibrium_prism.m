@@ -8,10 +8,7 @@
 %    - Manual connectivity matrix generation
 %    - Prestress equilibrium solver
 %    - Pinned_nodes = [n1 1 0 1; n2 1 0 0];
-%      n1 node fixed in x and z direction, n2 node fixed in x direction
-% /* This Source Code Form is subject to the terms of the Mozilla Public
-% * License, v. 2.0. If a copy of the MPL was not distributed with this
-% * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
+%      n1 node fixed in x and z direction, n2 node fixed in x direction 
 
 % % EXAMPLE:
 clear all; clc; close all;
