@@ -7,7 +7,6 @@ tags:
   - Flexible structures
   - Prestressable structures
   - Statics
-  - Dynamics
   - MATLAB
 
 authors:
