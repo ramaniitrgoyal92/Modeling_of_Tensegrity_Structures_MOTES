@@ -2,8 +2,10 @@
 title: 'TEAM: Tensegrity Engineering Analysis Master'
 
 tags:
-  - Tensegrity
-  - Lagrangian
+  - Tensegrity systems
+  - Multibody dynamics
+  - Flexible structures
+  - Prestressable structures
   - Statics
   - Dynamics
   - MATLAB
