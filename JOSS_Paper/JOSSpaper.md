@@ -6,7 +6,7 @@ tags:
   - Multibody dynamics
   - Flexible structures
   - Prestressable structures
-  - Statics
+  - Statics A
   - MATLAB
 
 authors:
