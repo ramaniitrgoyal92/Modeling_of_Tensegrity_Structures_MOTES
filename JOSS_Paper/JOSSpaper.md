@@ -29,7 +29,7 @@ affiliations:
  - name: Department of Aerospace Engineering, Texas A&M University, College Station, Texas, USA
    index: 1
 
-date: 13 March 2019
+date: 15 June 2019
 bibliography: JOSSpaper.bib
 ---
 
