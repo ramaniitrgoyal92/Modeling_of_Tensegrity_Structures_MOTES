@@ -1,4 +1,3 @@
----
 title: 'TEAM: Tensegrity Engineering Analysis Master'
 
 tags:
@@ -25,6 +24,7 @@ authors:
   - name: Robert E. Skelton
     orcid: 
     affiliation: 1
+    
 affiliations:
  - name: Department of Aerospace Engineering, Texas A&M University, College Station, Texas, USA
    index: 1
