@@ -30,7 +30,7 @@ affiliations:
    index: 1
 
 date: 15 June 2019
-bibliography: JOSSpaper.bib
+bibliography: paper.bib
 ---
 
 # Summary
