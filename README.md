@@ -36,7 +36,7 @@ This folder contains the journal paper corresponding to the software, including 
 
 This folder contains:
 
-	All the all library functions for tensegrity statics and dynamcis analysis are organized in this folder. By following instructions of statics and dynamics analysis from ''User_Guide.pdf", one can perform the analysis.
+All the all library functions for tensegrity statics and dynamcis analysis are organized in this folder. By following instructions of statics and dynamics analysis from ''User_Guide.pdf", one can perform the analysis.
 
 #### Software Verification and Examples
 
