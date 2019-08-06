@@ -1,10 +1,10 @@
-# Tensegrity Engineering Analysis Master (TEAM)
+# Modeling of Tensegrity Structrues (MOTES)
 
-### **Welcome to **TEAM** software!**
+### **Welcome to **MOTES** software!**
 
 #### General Information
  
-Our research team focuses on integrating structure and control design using Tensegrity  structure. The group focuses on designing the tensegrity structures to meet the specified objectives. These objectives can vary from minimizing the mass of the structure to controlling the structure to meet certain performance. This software is intended to study the statics and dynamics of tensegrity systems. The authors would like to make this as an open source software to help other researchers who are also interested in this field. 
+Our research team focuses on integrating structure and control design using Tensegrity structure. The group focuses on designing the tensegrity structures to meet the specified objectives. These objectives can vary from minimizing the mass of the structure to controlling the structure to meet certain performance. This software is intended to study the statics and dynamics of tensegrity systems. The authors would like to make this as an open source software to help other researchers who are also interested in this field. 
 
 #### LICENSE
 
@@ -14,7 +14,7 @@ Our research team focuses on integrating structure and control design using Tens
  
 ---
 
-***<font size=4>Tensegrity Engineering Analysis Master(TEAM) folder contains the following parts:</font>***
+***<font size=4>Modeling of Tensegrity Structrues (MOTES) folder contains the following parts:</font>***
 
 ---
 
@@ -22,37 +22,37 @@ Our research team focuses on integrating structure and control design using Tens
 If one wants to start using the TEAM software, 'setup.m' is to be run only the first time.
 Open MATLAB and run 'setup.m' file, it will:
 
-- Add all necessary functions to MATLAB path, 
-- Open ''User_Guide.pdf" automatically, please follow the step-by-step instructions from the User Guide.
+- Add all library functions to MATLAB path, 
+- Add the Software Verification and Examples,
+- Add User Guide,
+- Add Videos folder,
+- Add JOSS paper.
 
-#### JOSS Paper
+#### JossPaper
 
 This folder contains the journal paper corresponding to the software, including source file documents and reference. The journal paper will provide the background introduction, a summary of our work, applications, and references, etc. 
 
-#### Main
+#### Function Library
 
-This folder contains two subfolders:
+This folder contains:
 
-- Tensegrity Statics Main
+	All the all library functions for tensegrity statics and dynamcis analysis are organized in this folder. By following instructions of statics and dynamics analysis from ''User_Guide.pdf", one can perform the analysis.
 
-	All the necessary functions for tensegrity statics analysis are organized in this folder. By following instructions of statics analysis from ''User_Guide.pdf", one can perform the statics analysis.
+#### Software Verification and Examples
 
-- Tensegrity Dynamics Main
+This folder contains:
 
-	All the necessary functions for tensegrity dynamics analysis are organized in this folder. By following instructions of dynamics analysis from ''User_Guide.pdf", one can perform the dynamics analysis.
+1. Dynamics Examples
 
-#### Test Examples
+Here, we give examples to verify and demonstrate the dynamics of this software.
 
-Here, we give the .m files which are used to test this software. Detailed analysis can be found in Chapter 7 of "User_Guide.pdf".
+2. Statics Examples
 
-#### Tensegrity Examples
-
-Here, we list a few .m file examples from our research projects to show various  applications of tensegrity and this software.
+Here, we give examples to verify and demonstrate the statics of this software.
 
 #### User Guide
 
 This folder contains "User_Guide.pdf". The file provides the detailed description, how to use the software, various applications, and how to become a developer as well.
-
 
 #### Videos
 Some interesting tensegrity animation examples are shown here.
