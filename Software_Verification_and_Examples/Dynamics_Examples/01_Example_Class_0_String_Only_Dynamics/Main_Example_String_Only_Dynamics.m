@@ -60,7 +60,7 @@ Snet.tf = 5; % Simulation time
 [History,sim_debug] = tenseg_sim_class1open(Snet);
 
 %% Create animation
-% tenseg_animation(History,Snet,[],[],[],[],10)
+tenseg_animation(History,Snet,[],[],[],[],10)
 
 %% Plot History
 
