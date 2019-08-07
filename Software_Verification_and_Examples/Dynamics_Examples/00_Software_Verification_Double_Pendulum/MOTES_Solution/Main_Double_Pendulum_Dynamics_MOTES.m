@@ -91,7 +91,7 @@ classK_test.W= W;
 
 %%
 % Create animation
-% tenseg_animation(History,classK_test,[],[],[],[],10)
+tenseg_animation(History,classK_test,[],[],[],[],10)
 
 %%
 % Plot Node History
