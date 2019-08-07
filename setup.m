@@ -19,4 +19,4 @@ addpath( genpath('User_Guide') );
 % add Videos folder
 addpath( genpath('Videos') );
 % add JOSS Paper
-addpath( genpath('Joss_Paper') );
+addpath( genpath('JOSS_Paper') );
