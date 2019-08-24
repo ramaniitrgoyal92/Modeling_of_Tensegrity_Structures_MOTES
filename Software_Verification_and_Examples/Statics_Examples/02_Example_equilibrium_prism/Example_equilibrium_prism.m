@@ -11,7 +11,7 @@
 %      n1 node fixed in x and z direction, n2 node fixed in x direction 
 
 % % EXAMPLE:
-clear all; clc; close all;
+clear all; clc; close all; warning off;
 % 
 % Specify node positions
 N = 1*[0.5 0 0; 0 0.866 0; -0.5 0 0; 0.5 0 1; 0 0.866 1; -0.5 0 1]';
