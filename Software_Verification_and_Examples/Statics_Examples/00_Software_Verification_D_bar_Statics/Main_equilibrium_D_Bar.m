@@ -9,7 +9,7 @@
 %    - Prestress equilibrium solver
 %    - Pinned_nodes = [n1 1 0 1; n2 1 0 0];
 %      n1 node fixed in x and z direction, n2 node fixed in x direction
-clear all; clc; close all;
+clear all; clc; close all; warning off;
 % Manually specify node positions (in 3D).
 n1 = [-1 0 0]';
 n2 = [0 -1 0]';
@@ -65,4 +65,4 @@ Loop=Loop-1;
 tenseg_plot_physical(N,C_b,C_s,[],[],[],[],'Sradius',LABEL,BarWidth,StringWidth);
 % title('D Bar Structure')
 
-save D_Bar_Statics.mat
+% save D_Bar_Statics.mat
