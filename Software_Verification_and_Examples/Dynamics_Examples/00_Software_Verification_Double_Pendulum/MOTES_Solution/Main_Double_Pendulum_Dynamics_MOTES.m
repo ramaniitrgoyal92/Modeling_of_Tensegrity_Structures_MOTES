@@ -3,7 +3,7 @@
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
 
 %% Doubel Pendulum Dynamics
-clear all; clc; close all;
+clear all; clc; close all; warning off
 
 % Specify initial node positions for class k structure
 
@@ -90,11 +90,11 @@ classK_test.W= W;
 [History,debug] = tenseg_sim_classkopen(classK_test);
 
 %%
-% Create animation
-tenseg_animation(History,classK_test,[],[],[],[],10)
-
-%%
 % Plot Node History
 tenseg_plot_node(History,[1 2 3],[1 2])
+
+%%
+% Create animation
+tenseg_animation(History,classK_test,[],[],[],[],10)
 
 save TEAM_Solution.mat
