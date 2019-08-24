@@ -13,7 +13,7 @@
 %    - Simulation
 
 % Initialization
-clear all; clc; close all; 
+clear all; clc; close all; warning off;
 
 %% Specify node positions
 
@@ -59,13 +59,14 @@ Snet.tf = 5; % Simulation time
 % Perform simulation
 [History,sim_debug] = tenseg_sim_class1open(Snet);
 
-%% Create animation
-tenseg_animation(History,Snet,[],[],[],[],10)
-
 %% Plot History
-
 % Plots simulation time histories of axes [1 3] (x and z) coordinate values
 % for nodes [2 3 4]
 tenseg_plot_node(History,[2 3 4],[1 3])
+
+%% Create animation
+tenseg_animation(History,Snet,[],[],[],[],10)
+
+
 
 % save Example_String_Only_Dynamics.mat
