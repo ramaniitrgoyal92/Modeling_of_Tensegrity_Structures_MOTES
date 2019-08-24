@@ -3,7 +3,7 @@
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
 
 % EXAMPLE:
-clear all; clc; close all;
+clear all; clc; close all; warning off
 
 % Specify node positions
 N = 1*[0.5 0 0; 0 0.866 0; -0.5 0 0; 0.5 0 1; 0 0.866 1; -0.5 0 1]';
@@ -81,14 +81,14 @@ prism.Bradius = 0.02*ones(size(prism.C_b,1),1); % Radius of bars [# bars x 1]
 prism.Sradius = 0.01*ones(size(prism.C_s,1),1); % Radius of strings [# strings x 1]
 prism.Nradius = 0.02*ones(size(prism.N,2),1); % Radius of node spheres [# nodes x 1]
 
-%% Create animation
-tenseg_animation(History,prism,[],[],[],[],20)
-
-
 %%
 % Plot coordinate time histories for nodes 
 tenseg_plot_node(History,[2 3 4],[1 3])    % plot x and y coordinates for nodes 2,3,4
                                            % not super useful because all
                                            % same colors right now...
+                                           
+%% Create animation
+tenseg_animation(History,prism,[],[],[],[],20)
+
 save Example_class1_Prism_Dynamics.mat
 
