@@ -3,7 +3,7 @@
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
 
 % EXAMPLE:
-clear all; clc; close all;
+clear all; clc; close all; warning off;
 
 % Specify initial node positions for class k structure
 %   - Note that you don't have to worry about converting class k nodes into
@@ -102,11 +102,11 @@ classK_test.ms = 0.01;
 [History,debug] = tenseg_sim_classkopen(classK_test);
 
 %%
-% Create animation
-tenseg_animation(History,classK_test,[],[],[],[],10)
+tenseg_plot_node(History,[2 3 4],[1 3])
 
 %%
-tenseg_plot_node(History,[2 3 4],[1 3])
+% Create animation
+tenseg_animation(History,classK_test,[],[],[],[],10)
 
 save Example_class_k_X_Dynamics.mat
 
