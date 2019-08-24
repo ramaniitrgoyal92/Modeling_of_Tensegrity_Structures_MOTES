@@ -57,11 +57,11 @@ if ~isempty(Pinned_nodes)
     
 end
 
-size(K1)
-rank(K1)
+size(K1);
+rank(K1);
 % null(K1)
 % null(K1')
-rank([K1 W_vec])
+rank([K1 W_vec]);
 
 
 switch bar_material
@@ -145,7 +145,7 @@ end
 
 Loop=2;
 x0=1*10^-2.*ones(ns+nb,1);
-options = optimoptions('fmincon','Algorithm','sqp')
+options = optimoptions('fmincon','Algorithm','sqp');
 Force_den{Loop}= fmincon(@(x) nonlinear_force_density_minimal_mass(x,ns,LABEL,...
     mass_member_buckle,mass_member),x0,[],[],K1,W_vec,zeros(1,size(C_s,1)))
 
