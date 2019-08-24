@@ -149,7 +149,7 @@ if nargout == 1
 	
 	% LOG values of interest -- NOTE: specific to ode4 --------------------
 	if ~rem(idx, 1)
-        disp(t)
+        % disp(t)
 		logging_temp{gamma_log}(:,idx) = diag(gamma_hat);
 		logging_temp{bar_len_log}(:,idx) = diag(Current_len_hat);
 	end
