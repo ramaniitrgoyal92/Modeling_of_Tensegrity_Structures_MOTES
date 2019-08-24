@@ -2,7 +2,7 @@
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
 
-clear all; clc; close all;
+clear all; clc; close all; warning off;
 
 % Specify initial node positions for class k structure
 
@@ -87,12 +87,14 @@ classK_test.W= W;
 [History,debug] = tenseg_sim_classkopen(classK_test);
 
 %%
-% Create animation
-tenseg_animation(History,classK_test,[],[],[],[],10)
-
-%%
 % Plot Node History
 tenseg_plot_node(History,[1 2],[1 2 3])
 
-save Example_class_k_Pend_Dynamics.mat
+% save Example_class_k_Pend_Dynamics.mat
+
+%%
+% Create animation
+tenseg_animation(History,classK_test,[],[],[],[],10)
+
+
 
