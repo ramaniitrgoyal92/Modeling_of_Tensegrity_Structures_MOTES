@@ -3,7 +3,7 @@
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
 
 % EXAMPLE:
-clear all; clc; close all;
+clear all; clc; close all; warning off;
 
 % Specify initial node positions for class k structure
 
