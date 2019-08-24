@@ -58,7 +58,7 @@ end
 
 % If simulation, read inputs and compute Xd
 if nargout == 1
-	disp(t)
+	% disp(t)
 	
 	idx = 0.25 * (i + 3); % used for checking if we're on a reported time-step
 	ind_use = floor(i/4)+1; % index to use when reading in time-varying info
