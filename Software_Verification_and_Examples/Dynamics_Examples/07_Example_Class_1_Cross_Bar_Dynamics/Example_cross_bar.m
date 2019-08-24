@@ -4,7 +4,7 @@
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
 
 % EXAMPLE:
-clear all; clc; close all;
+clear all; clc; close all; warning off;
 
 % Specify node positions
 N = [-1 0 0; 0 -1 0; 1 0 0; 0 1 0]';
@@ -56,11 +56,11 @@ Cross_bar.c = 0;
 % Perform Simulation
 [History,sim_debug] = tenseg_sim_class1open(Cross_bar);
 
+figure()
+tenseg_plot_node(History,[2 3 4],[1 2]) 
 %%
 % Create animation
 tenseg_animation(History,Cross_bar,[],[],[],[],10)
 
-figure()
-tenseg_plot_node(History,[2 3 4],[1 2]) 
 
 % save Example_cross_bar_Dynamics.mat
