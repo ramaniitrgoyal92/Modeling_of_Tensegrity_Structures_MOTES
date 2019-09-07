@@ -1,10 +1,10 @@
-# Modeling of Tensegrity Structrues (MOTES)
+# Modeling of Tensegrity Structures (MOTES)
 
 ### **Welcome to **MOTES** software!**
 
 #### General Information
  
-Our research team focuses on integrating structure and control design using Tensegrity structure. The group focuses on designing the tensegrity structures to meet the specified objectives. These objectives can vary from minimizing the mass of the structure to controlling the structure to meet certain performance. This software is intended to study the statics and dynamics of tensegrity systems. The authors would like to make this as an open source software to help other researchers who are also interested in this field. 
+Our research team focuses on integrating structure and control design using Tensegrity structure. The group focuses on designing tensegrity structures to meet the specified objectives. These objectives can vary from minimizing the mass of the structure to controlling the structure to meet specific performance. This software is intended to study the statics and dynamics of tensegrity systems. The authors would like to make this as open-source software to help other researchers who are also interested in this field. 
 
 #### LICENSE
 
@@ -19,7 +19,7 @@ Our research team focuses on integrating structure and control design using Tens
 ---
 
 #### setup.m 
-If one wants to start using the TEAM software, 'setup.m' is to be run only the first time.
+If one wants to start using the MOTES software, 'setup.m' is to be run only the first time.
 Open MATLAB and run 'setup.m' file, it will:
 
 - Add all library functions to MATLAB path, 
@@ -36,7 +36,7 @@ This folder contains the journal paper corresponding to the software, including 
 
 This folder contains:
 
-All the library functions for tensegrity statics and dynamcis analysis are organized in this folder. By following instructions of statics and dynamics analysis from ''User_Guide.pdf", one can perform the analysis.
+All the library functions for tensegrity statics and dynamics analysis are organized in this folder. By following instructions of statics and dynamics analysis from ''User_Guide.pdf", one can perform the analysis.
 
 #### Software Verification and Examples
 
@@ -52,7 +52,7 @@ Here, we give examples to verify and demonstrate the statics of this software.
 
 #### User Guide
 
-This folder contains "User_Guide.pdf". The file provides the detailed description, how to use the software, various applications, and how to become a developer as well.
+This folder contains "User_Guide.pdf". The file provides a detailed description, how to use the software, various applications, and how to become a developer as well.
 
 #### Videos
 Some interesting tensegrity animation examples are shown in this folder.
