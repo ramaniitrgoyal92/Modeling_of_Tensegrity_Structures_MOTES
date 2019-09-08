@@ -2,7 +2,7 @@ function tenseg_struct = tenseg_convert_Cmats(tenseg_struct)
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % tenseg_struct = TENSEG_CONVERT_CMATS(tenseg_struct) converts given
 % 'simple' connectivity matrices (C_b, C_s) into the the connectivity
 % matrices used in the full string-to-string dynamics (C_bb, C_ns, C_nb,
