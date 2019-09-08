@@ -2,7 +2,7 @@ function [ Xd, logging] = tenseg_dyn_ckopen_fnc( t,X,INPUTS )
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % [ Xd, logging] = TENSEG_DYN_CKOPEN_FNC( t,X,INPUTS ) is used in computing
 % the dynamical behavior of an open-loop class k tensegrity structure.
 % Essentially, X_dot = [Nd; Ndd] is computed from X = [N, Nd], and t is
