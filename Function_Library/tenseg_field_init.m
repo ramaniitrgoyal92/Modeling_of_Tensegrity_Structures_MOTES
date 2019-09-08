@@ -2,7 +2,7 @@ function [ output_structure ] = tenseg_field_init( field,input_structure,output_
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % [ output_structure ] = TENSEG_FIELD_INIT( field,input_structure,output_structure,default,print )
 % initialize the value for a field of a given structure by either using
 % the value of the field variable in the workspace or loading the specified
