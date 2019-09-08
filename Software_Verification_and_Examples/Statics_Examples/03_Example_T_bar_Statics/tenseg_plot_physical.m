@@ -1,14 +1,12 @@
 function [fig_out] = tenseg_plot_physical( N,C_b,C_s,fig_handle,highlight_nodes,view_vec, PlotTitle, R3Ddata,Yld_n_Bkl,BarWidth_in,StringWidth_in)
-
-
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % This function added thickness display apart from tenseg_plot.m
 % Thickness of bars and strings are proportional to the force densities in
 % them.
-
+%
 % [fig_out] = TENSEG_PLOT( N,C_b,C_s,fig_handle,highlight_nodes,view_vec )
 % creates a rough visualization figure for a given tensegrity structure
 %
@@ -16,9 +14,9 @@ function [fig_out] = tenseg_plot_physical( N,C_b,C_s,fig_handle,highlight_nodes,
 %	N: node matrix (3 x n array for n nodes)
 %	C_b (optional): bar connectivity matrix (beta x n array for beta bars)
 %	C_s: string connectivity matrix (alpha x n array for alpha strings)
-
+%
 %   LABEL: Gives the information on bar failure mode; 11/23/18
-
+%
 %	fig_handle (optional): figure in which to plot
 %	highlight_nodes (optional): node(s) to highlight when plotting (vector
 %		containing node numbers)
@@ -35,7 +33,7 @@ function [fig_out] = tenseg_plot_physical( N,C_b,C_s,fig_handle,highlight_nodes,
 %	fig_out: figure handle in which plot was made
 %
 % Example:
-%	tenseg_plot(N,C_b,C_b)
+%	tenseg_plot_physical( N,C_b,C_s,fig_handle,highlight_nodes,view_vec, PlotTitle, R3Ddata,Yld_n_Bkl,BarWidth_in,StringWidth_in)
 
 % Handle optional arguments
 
