@@ -1,9 +1,8 @@
 function [N_out,C_b_out,C_s_out] = tenseg_N_reorder(N,C_b,C_s)
-
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % COMPATIBILITY WITH OTHER FUNCTIONS NEEDS TO BE TESTED 
 % [N_out,C_b_out,C_s_out] = TENSEG_N_REORDER(N,C_b,C_s) Rearranges nodes
 % such that C_b simplifies to [eye(beta), -eye(beta)] for a structure with
