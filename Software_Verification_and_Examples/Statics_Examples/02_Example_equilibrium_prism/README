@@ -1,0 +1,7 @@
+Structure configuration is given as Example_equilibrium_prism_Configuration.png. 
+
+A rendered model is given as Example_equilibrium_prism_Configuration_Pretty.png, and the structure looks more pretty than the above one. 
+
+Vertical compressive forces are on nodes 4, 5, and 6. Results are given in Example_equilibrium_prism_Results.png.
+
+Run Example_equilibrium_prism.m to check the example.
