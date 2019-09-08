@@ -1,3 +1,5 @@
 Structure configuration is given as Example_equilibrium_kite_Configuration.png. 
 
+Horizontal forces are applied at nodes 1 and 3, and vertical compressive forces are on nodes 2 and 4.
+
 Run Main_Example_equilibrium_kite.m to check the example.
