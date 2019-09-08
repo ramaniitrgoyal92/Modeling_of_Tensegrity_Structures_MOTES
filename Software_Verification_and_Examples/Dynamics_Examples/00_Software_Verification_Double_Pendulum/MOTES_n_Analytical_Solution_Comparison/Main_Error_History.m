@@ -3,7 +3,7 @@
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
 
 clc;clear all;close all;
-load 'TEAM_Solution.mat'
+load 'MOTES_Solution.mat'
 load 'Analytical_Solution.mat'
 xx1 = squeeze(History.Nhist(1,1,1:end));
 xx2 = squeeze(History.Nhist(1,2,1:end));
