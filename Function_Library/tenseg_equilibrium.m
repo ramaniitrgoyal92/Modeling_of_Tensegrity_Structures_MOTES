@@ -2,10 +2,10 @@ function [Force_den,Support_Load] = tenseg_equilibrium(tenseg_struct)
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % [Force_den,Support_Load] = tenseg_equilibrium(tenseg_struct) Solves the 
 % statics equation NK=W
-
+%
 %
 % Inputs:  
 %	tenseg_struct: tensegrity structure definition data structure
