@@ -3,7 +3,7 @@ function tenseg_plot_configurations(History,tenseg_struct,...
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % tenseg_plot_configurations(History,tenseg_struct,n_frames,highlight_nodes,view_vec)
 % Creates plots for uniformly time-spaced configurations, the number of
 % configurations is given by input n_frames
