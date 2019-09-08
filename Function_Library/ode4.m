@@ -1,7 +1,6 @@
 function Y = ode4(odefun,tspan,y0,varargin)
-% /* This Source Code Form is subject to the terms of the Mozilla Public
-% * License, v. 2.0. If a copy of the MPL was not distributed with this
-% * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
+
+% This function is written by Kelly Kearney: https://github.com/kakearney/ecosystem-pkg/blob/master/odefixed/ode4.m. 
 
 %ODE4  Solve differential equations with a non-adaptive method of order 4.
 %   Y = ODE4(ODEFUN,TSPAN,Y0) with TSPAN = [T1, T2, T3, ... TN] integrates 
