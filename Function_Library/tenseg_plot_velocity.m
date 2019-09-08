@@ -2,7 +2,7 @@ function [] = tenseg_plot_velocity(History,node_ind,axes)
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % tenseg_plot_velocity(History,node_ind,axes,line_style) plots time histories
 % of specified axes velocity values for a given node from a given
 % simulation time history. Line style can optionally be specified.
