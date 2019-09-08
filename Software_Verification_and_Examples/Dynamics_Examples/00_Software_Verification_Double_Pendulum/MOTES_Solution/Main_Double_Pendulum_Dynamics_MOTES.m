@@ -97,4 +97,4 @@ tenseg_plot_node(History,[1 2 3],[1 2])
 % Create animation
 tenseg_animation(History,classK_test,[],[],[],[],10)
 
-save TEAM_Solution.mat
+save MOTES_Solution.mat
