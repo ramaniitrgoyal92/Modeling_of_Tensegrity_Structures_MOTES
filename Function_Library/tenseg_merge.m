@@ -1,12 +1,11 @@
 function [N,CST,CBT] = tenseg_merge(N1,cst1,cbt1,N2,cst2,cbt2)
-
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % [N,CST,CBT] = tenseg_merge(N1,cst1,cbt1,N2,cst2,cbt2) Merges two tensegrity 
 % structures into one.
-
+%
 %
 % Inputs:
 %	N1: node matrix (3 x n1 array for n1 nodes) of structure 1
