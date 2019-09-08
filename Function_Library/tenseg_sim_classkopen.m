@@ -1,9 +1,8 @@
 function [History,info] = tenseg_sim_classkopen(sim_task)
-
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % [History,info] = TENSEG_SIM_CLASSKOPEN(tenseg_in) performs simulation
 % of a given CLASS K, OPEN LOOP tensegrity simulation task. Specification
 % of the simulation task is done with the 'sim_task' input data structure,
