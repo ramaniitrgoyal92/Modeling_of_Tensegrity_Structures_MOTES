@@ -2,7 +2,7 @@ function [History,info] = tenseg_sim_class1open(sim_task)
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % [History,info] = TENSEG_SIM_CLASS1OPEN(tenseg_in) performs simulation
 % of a given CLASS 1, OPEN LOOP tensegrity simulation task. Specification
 % of the simulation task is done with the 'sim_task' input data structure,
