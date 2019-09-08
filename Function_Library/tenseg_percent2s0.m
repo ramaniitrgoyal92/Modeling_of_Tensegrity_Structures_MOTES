@@ -2,7 +2,7 @@ function [s_0] = tenseg_percent2s0(N,C_s,percents,parents)
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % s_0 = TENSEG_PERCENT2S0(N,C_s,percents,parents) creates a vector
 % containing all resting string lengths for a set of string segments based
 % on specified rest length percentages specified for the "parent" strings.
