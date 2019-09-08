@@ -2,18 +2,18 @@ function [N_Cor,Ndot_Cor]=bar_length_correction_Class1(N,Ndot,C_b,bar_len_const_
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % [N_Cor,Ndot_Cor]=bar_length_correction_Class1(N,Ndot,C_b,bar_len_const_hat)
 % is to correct the bar length errors due to numerical simulations
 % errors for Class1 structures.
-
+%
 %
 % Inputs:
 %	N: current nodel matrix
 %	Ndot: current N_dot values
 %	C_b: bar connectivity matrix
 %   bar_len_const_hat: constant bar length matrix
-
+%
 % Outputs:
 %	N_Cor: corrected nodel matrix
 %	Ndot_Cor: corrected N_dot matrix
