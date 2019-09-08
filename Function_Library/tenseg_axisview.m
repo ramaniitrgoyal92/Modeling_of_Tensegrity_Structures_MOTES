@@ -2,7 +2,7 @@ function [axis_vec, view_vec] = tenseg_axisview(Nhist, R3Ddata)
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % [axis_vec, view_vec] = TENSEG_AXISVIEW(Nhist) finds axes bounds and an
 % appropriate view vector for visualizing data from a provided node matrix
 % or node history array.
