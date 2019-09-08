@@ -2,10 +2,10 @@ function [F,FF]=nonlinear_force_density_minimal_mass(x,ns,LABEL,mass_member_buck
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % This function is calculation mass of each structure member and the total
 % mass.
-
+%
 % Inputs:
 %	x: force densities in strings and bars
 %   ns: number of strings
