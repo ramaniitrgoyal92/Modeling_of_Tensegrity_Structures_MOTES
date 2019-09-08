@@ -2,7 +2,7 @@ function [N_new,C_b_new,C_s_new,P,D,node_constraints] = tenseg_class_k_convert(N
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % [N_new,C_b_new,C_s_new,P,node_constraints] =
 % TENSEG_CLASS_K_CONVERT(N,C_b,C_s,pinned_nodes) converts a given class k
 % tensegrity structure into a corresponding class 1 structure with
