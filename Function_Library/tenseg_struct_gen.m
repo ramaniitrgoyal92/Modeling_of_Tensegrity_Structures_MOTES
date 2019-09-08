@@ -1,9 +1,8 @@
 function [full_struct] = tenseg_struct_gen(input_struct)
-
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % [tenseg_struct] = TENSEG_STRUCT_GEN(tenseg_struct) fully populates all
 % fields of a tensegrity simulation task data structure given an initial
 % data structure containing, at a minimum, the required fields. Default
