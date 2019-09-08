@@ -2,7 +2,6 @@ function [LatFace, UpFace, DwFace] = PlotCylinderObject(p1,p2,r,nsurfpatches)
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
 % Returns points to generate surface plots for the 
 % lateral (LatFace), upper (UpFace), and down (DwFace) of a cylinder
 % LatFace.x, LatFace.y, LatFace.z: Coordinates of lateral cylinder surface
