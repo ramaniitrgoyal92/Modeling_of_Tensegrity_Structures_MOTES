@@ -2,7 +2,7 @@ function [N_new,C_b_new,C_s_new,parents,ms,seg_k,seg_c] = tenseg_string_segment(
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % [N_new,C_b_new,C_s_new,parents,ms] = TENSEG_STRING_SEGMENT(N,C_b,C_s,segments,string_mass_assign)
 % splits each string member of a given tensegrity structure into a
 % specified number of segments.
