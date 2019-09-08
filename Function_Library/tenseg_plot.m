@@ -2,7 +2,7 @@ function [fig_out] = tenseg_plot( N,C_b,C_s,fig_handle,highlight_nodes,view_vec,
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % [fig_out] = TENSEG_PLOT( N,C_b,C_s,fig_handle,highlight_nodes,view_vec )
 % creates a rough visualization figure for a given tensegrity structure
 %
