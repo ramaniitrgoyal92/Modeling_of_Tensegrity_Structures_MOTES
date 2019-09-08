@@ -2,7 +2,7 @@ function [] = tenseg_animation(History,tenseg_struct,filename,highlight_nodes,vi
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
 % * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
-
+%
 % [] =
 % tenseg_animation(History,tenseg_struct,filename,highlight_nodes,view_vec,realtime)
 % creates an animation video file for a given tensegrity sim history and
