@@ -62,4 +62,4 @@ Some interesting tensegrity animation examples are shown in this folder.
 ### Help Desk:
 
 We are open and willing to answer any question. Please state your problem clearly and use the following emails to contact:<br>
-Raman Goyal: <ramaniitrgoyal92@tamu.edu>, Muhao Chen: <muhaochen@tamu.edu>.
+Raman Goyal: <ramaniitrgoyal92@tamu.edu>, Muhao Chen: <muhaochen@tamu.edu>. Thank you!
