@@ -1,0 +1,5 @@
+Structure configuration is given as T_Bar_Structure_Configuration.png.
+
+Apply horizontal compressive force at node 1 and 3, and expected results should be like T_Bar_Structure_Mass.png.
+
+Run Main_equilibrium_T_Bar.m to check the example.
