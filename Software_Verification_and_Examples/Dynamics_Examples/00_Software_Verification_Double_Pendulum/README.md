@@ -1,4 +1,4 @@
-This folder gives a comparison of nodes positions and bar length errors of MOTES software and analytical solution by a double pendulum.
+This folder gives a comparison of nodes positions and bar length errors of MOTES software and analytical solution by a double pendulum example.
 
 The results are shown in **`MOTES_n_Analytical_Solution_Comparison`** folder. 
 
