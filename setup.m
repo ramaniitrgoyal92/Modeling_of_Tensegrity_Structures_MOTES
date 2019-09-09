@@ -1,6 +1,5 @@
 %% ^_^ Welcome to Modeling of Tensegrity Structrues(MOTES) software! ^_^ %%
-
-%% SETUP file to be run only the first time
+% SETUP file to be run only the first time
 
 % /* This Source Code Form is subject to the terms of the Mozilla Public
 % * License, v. 2.0. If a copy of the MPL was not distributed with this
