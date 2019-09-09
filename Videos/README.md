@@ -1,4 +1,4 @@
-Here, ten dynamics examples are given to show various structure types and problems one may face,
+Here, ten dynamics videos are shown here:
 
 - class 0 string only structure
 - class 1 cross bar
