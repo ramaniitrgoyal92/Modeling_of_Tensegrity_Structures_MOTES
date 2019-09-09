@@ -1,0 +1,3 @@
+The governing equations of motion are given in the user guide.
+
+This part is the codes using ode45 to calculate the node positions of the double pendulum example. 
