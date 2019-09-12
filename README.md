@@ -77,15 +77,15 @@ Raman Goyal: <ramaniitrgoyal92@tamu.edu>, Muhao Chen: <muhaochen@tamu.edu>. Than
 Feedbacks and contributions are appreciated. Please use the same nomenclature so that everybody could be on the same page.
 
 1. Fork it
-2. Submit a pull request OR send emails to help desk (Raman Goyal: ramaniitrgoyal92@tamu.edu, Muhao Chen: muhaochen@tamu.edu).
+2. Submit a pull request OR send emails to help desk.
 
 We will reply to you ASAP.
 
 #### Coding standards
 
-* MATLAB.
-* MATLAB-style documentation and comments.
-* Use the same Nomenclature
+* MATLAB (>= 2009a)
+* Function input and output comments
+* Use the same Nomenclature as follows
 
 #### Nomenclature
 
