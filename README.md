@@ -70,8 +70,8 @@ Raman Goyal: <ramaniitrgoyal92@tamu.edu>, Muhao Chen: <muhaochen@tamu.edu>. Than
 
 ----
 
-### Join Tensegrity Community and Contribute
-Feedbacks and contributions are really appreciated. Please use the same nomenclature so that everybody could be on the same page. 
+### Join MOTES Community and Contribute
+Feedbacks and contributions are appreciated. Please use the same nomenclature so that everybody could be on the same page. 
 
 #### Geometry: 
     N: initial node positions
