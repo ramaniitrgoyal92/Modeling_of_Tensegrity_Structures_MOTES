@@ -73,14 +73,43 @@ Raman Goyal: <ramaniitrgoyal92@tamu.edu>, Muhao Chen: <muhaochen@tamu.edu>. Than
 ### Join Tensegrity Community and Contribute
 Feedbacks and contributions are really appreciated. Please use the same nomenclature so that everybody could be on the same page. 
 
-%		[].N: initial node positions
-%		[].C_b: bar connectivity (empty if no bars)
-%		[].C_s: string connectivity
-%		[].s_0: string rest lengths
-%
-% Outputs:
-%	History: data structure containing simulation results
-%		[].Nhist: node positions for each time step
-%		[].Ndhist: node velocities for each time step
-%		[].gamma: string member force densities for each time step
-%		[].t: time steps
+#### Geometry: 
+    N: initial node positions
+    C_b: bar connectivity
+    C_s: string connectivity
+    C_r: Bar center of mass connectivity
+    C_sb: string connections to bars
+    C_ss: string connections to string nodes
+    C_bb: non-zero columns of C_b
+    C_nb: satisfies R_b = N*C_nb^T*C_r'
+    B: bar matrix
+    S: string matrix
+    s_0: resting string lengths
+    n: number of nodes
+    beta: number of bars
+    alpha: number of string members
+    sigma: number of string point mass nodes
+#### Force
+    gamma: string member force densities
+    lambda: bar member force densities 
+    P: constraint matrix
+    D: constraint matrix
+    M: mass matrix used in dynamics
+    Minv: inverse of M
+    W: external node forces
+    k: string stiffness coefficients
+    constants: various constants throughout the simulation
+#### Mass
+    m: bar masses
+    ms: string node point masses
+    Jt_hat: transaxial bar moments of inertia
+    Ja_hat: axial bar moments of inertia
+    len_hat: initial bar lengths
+##### Simulation
+    tf: simulation time duration
+    dt: simulation time step
+    W: external node forces
+    k: string stiffness coefficients
+    N0: initial node positions
+    Nd0: initial node velocities
+    sim: integration specification variables
