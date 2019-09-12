@@ -71,16 +71,32 @@ Raman Goyal: <ramaniitrgoyal92@tamu.edu>, Muhao Chen: <muhaochen@tamu.edu>. Than
 ----
 
 ### Join MOTES Community and Contribute
-Feedbacks and contributions are appreciated. Please use the same nomenclature so that everybody could be on the same page. 
 
-#### Geometry: 
+#### How to contribute
+
+Feedbacks and contributions are appreciated. Please use the same nomenclature so that everybody could be on the same page.
+
+1. Fork it
+2. Submit a pull request OR send emails to help desk (Raman Goyal: ramaniitrgoyal92@tamu.edu, Muhao Chen: muhaochen@tamu.edu).
+
+We will reply to you ASAP.
+
+#### Coding standards
+
+* MATLAB.
+* MATLAB-style documentation and comments.
+* Use the same Nomenclature
+
+#### Nomenclature
+
+##### Geometry: 
     N: initial node positions
     C_b: bar connectivity
     C_s: string connectivity
-    C_r: Bar center of mass connectivity
+    C_r: Bar center of mass 'connectivity'
     C_sb: string connections to bars
     C_ss: string connections to string nodes
-    C_bb: non-zero columns of C_b
+    C_bb: non-zero columns of C_b (old C_b matrix)
     C_nb: satisfies R_b = N*C_nb^T*C_r'
     B: bar matrix
     S: string matrix
@@ -89,7 +105,7 @@ Feedbacks and contributions are appreciated. Please use the same nomenclature so
     beta: number of bars
     alpha: number of string members
     sigma: number of string point mass nodes
-#### Force
+##### Force
     gamma: string member force densities
     lambda: bar member force densities 
     P: constraint matrix
@@ -99,11 +115,16 @@ Feedbacks and contributions are appreciated. Please use the same nomenclature so
     W: external node forces
     k: string stiffness coefficients
     constants: various constants throughout the simulation
-#### Mass
+##### Initial Conditions
+	Nd0: initial node velocities
     m: bar masses
     ms: string node point masses
-    Jt_hat: transaxial bar moments of inertia
-    Ja_hat: axial bar moments of inertia
+    mgyro: gyro wheel masses
+    gyro_r: gyro wheel radii
+    gyro_h: gyro wheel heights
+    gyro_omega: gyro angular rates
+    Jt_hat: transaxial bar+gyro moments of inertia
+    Ja_hat: axial bar+gyro moments of inertia
     len_hat: initial bar lengths
 ##### Simulation
     tf: simulation time duration
