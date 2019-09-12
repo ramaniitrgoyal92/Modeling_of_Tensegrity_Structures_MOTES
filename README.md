@@ -23,7 +23,7 @@ Second, the dynamic analysis uses a second-order matrix differential equation to
 ---
 
 #### setup.m 
-If one wants to start using the MOTES software, 'setup.m' is to be run only the first time.
+If one wants to start using the MOTES software, run the 'setup.m' first.
 Open MATLAB and run 'setup.m' file, it will:
 
 - Add all library functions to MATLAB path, 
