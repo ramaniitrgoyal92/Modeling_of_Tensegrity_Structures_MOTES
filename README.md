@@ -67,3 +67,20 @@ Some interesting tensegrity animation examples are shown in this folder.
 
 We are open and willing to answer any question. Please state your problem clearly and use the following emails to contact:<br>
 Raman Goyal: <ramaniitrgoyal92@tamu.edu>, Muhao Chen: <muhaochen@tamu.edu>. Thank you!
+
+----
+
+### Join Tensegrity Community and Contribute
+Feedbacks and contributions are really appreciated. Please use the same nomenclature so that everybody could be on the same page. 
+
+%		[].N: initial node positions
+%		[].C_b: bar connectivity (empty if no bars)
+%		[].C_s: string connectivity
+%		[].s_0: string rest lengths
+%
+% Outputs:
+%	History: data structure containing simulation results
+%		[].Nhist: node positions for each time step
+%		[].Ndhist: node velocities for each time step
+%		[].gamma: string member force densities for each time step
+%		[].t: time steps
