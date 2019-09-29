@@ -4,4 +4,4 @@ Structure configuration is given as D_Bar_Structure_Configuration.png.
 
 Apply horizontal compressive force at node 1 and 3, and expected results should be like D_Bar_Structure_Mass.png.
 
-Run Main_equilibrium_D_Bar.m to check the example.
+Run equilibrium_D_Bar.m to check the example.
