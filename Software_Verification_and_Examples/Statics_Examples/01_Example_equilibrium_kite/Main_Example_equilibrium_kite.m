@@ -51,8 +51,15 @@ kite.C_b = C_b;
 kite.C_s = C_s;
 kite.W = W;
 kite.Pinned_nodes = Pinned_nodes;
-
+kite.bar_material='Aluminum'; % Specify bar material Aluminum, UHMWPE or Steel
+kite.string_material='Aluminum'; % Specify bar material Aluminum, UHMWPE or Steel
+kite.bar_failure='yielding_n_buckling'; % gives maximum mass subject to yielding and buckling
 % Solve for an equilibrium condition 
-[Force_den,Support_Load] = tenseg_equilibrium(kite);
+% [Force_den,Support_Load] = tenseg_equilibrium(kite);
+[Force_den,Support_Load,LABEL,MIN_MASS,Mass_bar,Mass_string,BarWidth_in,StringWidth_in,Loop] = tenseg_equilibrium_minimal_mass(kite);
+BarWidth=BarWidth_in;
+StringWidth=StringWidth_in;
+Loop=Loop-1;
+tenseg_plot_physical(N,C_b,C_s,[],[],[],[],'Sradius',LABEL,BarWidth,StringWidth);
 
 % save Example_equilibrium_kite.mat
