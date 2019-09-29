@@ -9,6 +9,12 @@ Our research team focuses on integrating structure and control design using Tens
 Contribution of this software is mainly in these two aspects: First, the static analysis provides the minimum mass of the tensegrity structure by optimizing for the tensile force in the strings and compressive force in the bars for no external force (self-equilibrium state) and in the presence of a given external force. The optimization problem is written as a Linear Programming to solve for the minimum mass required under yielding constraints. The software also allows solving for the minimum mass under buckling and yielding failure criteria through a non-linear optimization solver. 
 Second, the dynamic analysis uses a second-order matrix differential equation to simulate the dynamics of any complexity of tensegrity structure. This dynamic model assumes the bars to be rigid and strings to show elastic behavior (Hookean).
 
+Undergraduate linear algebra and some basic knowledge of MATLAB is required to understand the codes well. This software is developed based on:
+
+•	64-bit Windows
+•	MATLAB 
+•	MATLAB Optimization Toolbox
+Note: Win7/Win10/Mac OS/Linux/Win XP/Win Vista compatible with a MATLAB version later than 2009a should work fine. However, we encourage the user to run the software with the latest MATLAB release if possible. 
 
 #### LICENSE
 
