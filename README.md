@@ -38,6 +38,8 @@ Open MATLAB and run 'setup.m' file, it will:
 - Add Videos folder,
 - Add JOSS paper.
 
+Note: setup.m must be run every time MATLAB opens, before any other file.
+
 #### JossPaper
 
 This folder contains the journal paper corresponding to the software, including source file documents and reference. The journal paper will provide the background introduction, a summary of our work, applications, and references, etc. 
