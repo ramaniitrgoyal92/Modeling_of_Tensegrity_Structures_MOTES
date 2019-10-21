@@ -1,1 +1,3 @@
 This file contains all necessary functions of tensegrity dynamics and statics. 
+The ode solver is written by Kelly Kearney: https://github.com/kakearney/ecosystem-pkg/blob/master/odefixed/ode4.m. 
+Their code MIT License (MIT) is included in the functions. 
