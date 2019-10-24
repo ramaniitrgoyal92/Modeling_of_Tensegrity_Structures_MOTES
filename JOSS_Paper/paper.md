@@ -12,23 +12,18 @@ tags:
 authors:
   - name: Raman Goyal
     orcid: 0000-0002-8128-3051
-    affiliation: 1
 
   - name: Muhao Chen
     orcid: 0000-0003-1812-6835
-    affiliation: 1
 
   - name: Manoranjan Majji
     orcid: 0000-0002-8218-2631
-    affiliation: 1
 
   - name: Robert E. Skelton
     orcid: 0000-0001-6503-9115
-    affiliation: 1
     
 affiliations:
  - name: Department of Aerospace Engineering, Texas A&M University, College Station, Texas, USA
-   index: 1
 
 date: 15 June 2019
 bibliography: paper.bib
