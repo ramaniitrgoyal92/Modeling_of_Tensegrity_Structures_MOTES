@@ -18,7 +18,7 @@ function default = tenseg_defaults(n,beta,alpha,sigma)
 
 % Structure definitions
 default.m = ones(1,beta); % bar masses
-default.ms = 0.0*ones(1,sigma); % string node point masses
+default.ms = 0.1*ones(1,sigma); % string node point masses
 default.mgyro = zeros(1,beta); % gyro wheel masses
 default.gyro_r = zeros(1,beta); % gyro wheel radii
 default.gyro_h = zeros(1,beta); % gyro wheel heights
